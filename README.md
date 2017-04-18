@@ -71,3 +71,8 @@ parser(url);
 参考以下解释：
 http://w3schools.bootcss.com/jsref/dom_obj_anchor.html
 https://www.xiabingbao.com/javascript/2015/11/28/js-a-parse-url.html
+
+
+
+## 11.[译] 详解JavaScript的this #12
+https://github.com/ccforward/cc/issues/12
