@@ -32,3 +32,42 @@ if(browser.weixin) {
     // do what you want
 }
 ```
+
+
+
+## URL 通过 `<a>` 标签解析
+https://github.com/ccforward/cc/blob/master/URLParse/index.js
+```
+var parser = function(url) {
+    var a = document.createElement('a');
+    a.href = url;
+
+    var search = function(search) {
+        if (!search) return {};
+
+        var ret = {};
+        search = search.slice(1).split('&');
+        for (var i = 0, arr; i < search.length; i++) {
+            arr = search[i].split('=');
+            ret[arr[0]] = arr[1];
+        }
+        return ret;
+    };
+
+    return {
+        protocol: a.protocol,
+        host: a.host,
+        hostname: a.hostname,
+        pathname: a.pathname,
+        search: search(a.search),
+        hash: a.hash
+    }
+};
+
+var url = 'http://sub.example.com:8088/index/?data=run&person=cc#hash';
+parser(url);
+```
+
+参考以下解释：
+http://w3schools.bootcss.com/jsref/dom_obj_anchor.html
+https://www.xiabingbao.com/javascript/2015/11/28/js-a-parse-url.html
