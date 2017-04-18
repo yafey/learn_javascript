@@ -71,3 +71,12 @@ parser(url);
 参考以下解释：
 http://w3schools.bootcss.com/jsref/dom_obj_anchor.html
 https://www.xiabingbao.com/javascript/2015/11/28/js-a-parse-url.html
+
+
+
+
+# TODO
+SublimeText下写作利器之MarkdownEditing
+http://jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/
+
+sublime 查看 已安装插件
