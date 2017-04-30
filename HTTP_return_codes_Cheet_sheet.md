@@ -6,7 +6,7 @@
 - `2**` : Here you go (给你/成功)。
 - `3**` : Go away (走你)。
 - `4**` : You fucked up (你tmd输入的是什么？)。
-- `3**` : I fucked up (我tmd挂了！)。
+- `5**` : I fucked up (我tmd挂了！)。
 
 
 ![趣图：HTTP 状态码速记表](images/0.jpg)
